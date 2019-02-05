@@ -1,0 +1,434 @@
+
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.eot?#iefix) format("embedded-opentype"), url(../fonts/Vazir.woff)
+    format("woff"), url(../fonts/Vazir.ttf) format("truetype"), url(../fonts/Vazir.svg#Vazir) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+body{
+    direction: rtl;
+    font-family: Vazir;
+    background-color: #eae9de;
+}
+
+
+
+.cs-topNav{
+    background-color: #fff;
+    height: 70px;
+}
+
+
+.cs-topNav .container{
+    margin-top: 20px;
+}
+
+
+.cs-topNav .container a{
+    color: #a0a0a0;
+}
+
+.cs-topNav .container #exit:hover{
+    color: #d12929;
+}
+
+
+.cs-topNav .container a:hover{
+    color: #3ae42f;
+}
+
+.cs-topNav .container #sign-in-a:hover{
+    color: rgba(46, 88, 237, 0.69);
+}
+
+
+.cs-topNav .container #sign-in{
+    margin-right: 65px;
+}
+
+
+.cs-topNav .container #sign-up{
+    margin-right: 15px;
+}
+
+
+
+
+.cs-topNav .container #logo-a{
+    float: left;
+    margin-top: -10px;
+}
+
+
+.navbar{
+    background-color: #333 ;
+}
+
+.cs-lg-nav{
+    margin-top: 75px;
+}
+
+.cs-nav-border{
+    border-radius: 0px;
+}
+
+.cs-rightNav a{
+    font-size: 20px;
+}
+
+li #home-icon{
+    color: #fff;
+    background-color: #d12929;
+    font-size: 15px;
+}
+
+.cs-rightNav2 li{
+    border-left: 1px solid #918f94;
+}
+
+.cs-rightNav2 li:hover{
+    background-color: #1b6d85;
+}
+
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.cs-slider{
+    margin-top: -15px;
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+
+.cs-under-header-ads img{
+    margin-top: 10px;
+}
+
+.cs-under-header-ads img:last-child{
+    margin-bottom: 10px;
+}
+
+.cs-content .panel-heading span{
+    color: #d12929;
+    
+}
+
+.cs-content .panel-heading{
+    border-bottom-color: #d12929 ;
+    background-color: #fff;
+    border-width: 1px;
+}
+
+.cs-content .panel-heading  ul{
+    list-style-type: none;
+    float: left;
+}
+.cs-content .panel-heading  ul li{
+    display: inline-block;
+    line-height: 5px;
+    padding: 0px 10px;
+
+}
+
+.cs-border {
+    position: relative;
+}
+
+.cs-border:after {
+    content: " ";
+    position: absolute;
+    border-left: 1px #918f94 solid;
+    top: 35%;
+    right: 0;
+    height: 120%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.panel-heading a{
+    color: #5e5e5e;
+}
+
+.dropup{
+    float: left;
+}
+
+.dropup button{
+    padding: 2px;
+}
+
+.cs-events{
+    padding: 5px 10px;
+}
+
+.cs-events .caption{
+    font-size: 10px;
+    text-align: center;
+}
+
+.cs-lg-rightads img{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.panel-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 0px;
+}
+
+.cs-panel-events p {
+    font-size: 12px;
+}
+
+.cs-panel-events .thumbnail{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cs-panel-events img:hover{
+    transition: all 800ms;
+    filter:grayscale(70%);
+}
+
+
+.cs-admin-object{
+    width: 200px;
+    height: 100px;
+    background-color: #d12929;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.cs-admin-object p{
+    /*color: #FFF;
+    font-size: 20px;
+    margin-right: 5px;*/
+}
+
+
+.cs-admin-object span{
+    color: #FFF;
+}
+
+.cs-admin-object i{
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+.cs-right-menu {
+    padding: 20px;
+}
+
+.cs-right-menu button{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
+
+
+.cs-right-menu button:hover{
+    background-color: #d12929;
+    color: #fff;
+}
+
+.panel-footer{
+    margin-top: 120px;
+}
+
+
+
+.bg-primary{
+    background-color: #4a75b3;
+    padding: 10px;
+    text-align: center;
+}
+
+#cs-event-name{
+    color: #d12929;
+    font-size: 1.3em;
+}
+
+#cs-event-collapse{
+    font-size: 1.3em;
+}
+
+#panel-body{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#panel-body .col-sm-6{
+     margin-bottom: 10px;
+     margin-top: 10px;
+ }
+
+#panel-body .row{
+    border-bottom: 1px solid silver;
+}
+
+#panel-body .row:first-child{
+    margin-top: 0px;
+
+}
+
+#panel-body .row:last-child{
+    border-bottom: none;
+    margin-bottom: -5px
+}
+
+.cs-font{
+    font-size: 70%;
+    color: white;
+}
+
+#panel-body2 .panel-heading{
+    background: #5c5c5c ; width: 100% ; height: 40px
+}
+
+#panel-body2 a:hover .panel-heading{
+    background-color: #62bf60;
+}
+
+.cs-admin-category .bg-info{
+    padding: 20px;
+    background-color: #fff;
+}
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #d12929;
+    border-top: 1px solid #d12929;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+    opacity: .3;
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background-color: transparent;
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.thumbnail .well{
+    background-color: #d12929;
+    border: 0;
+    padding: 5px;
+}
+
+.tags span{
+
+    background-color: #00aced ;
+    font-family: Tahoma
+
+}
+
+.tags span:hover{
+    transition: all 800ms;
+    background-color: #1b4b72;
+}
+
+.bg-tags{
+    padding: 15px;
+    background-color: #ddd;
+    border-radius: 8px;
+    box-shadow: 7px 12px 12px #b2b3b2;
+}
+
+.bg-tags:hover i{
+    transition: all 1200ms;
+    transform: rotate(360deg);
+}
